@@ -180,7 +180,7 @@ public final class Builder {
         applyActions(builder);
         applyDeleteReceiver(builder);
         applyContentReceiver(builder);
-
+        applyBigTextStyle(builder);
         return new Notification(context, options, builder);
     }
 
