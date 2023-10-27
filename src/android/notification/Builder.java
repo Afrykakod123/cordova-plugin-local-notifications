@@ -145,6 +145,7 @@ public final class Builder {
                 .setPriority(options.getPrio())
                 .setShowWhen(options.showClock())
                 .setUsesChronometer(options.showChronometer())
+                .setStyle(new NotificationCompat.BigTextStyle() .bigText(options.getText()));
                 .setGroup(options.getGroup())
                 .setGroupSummary(options.getGroupSummary())
                 .setTimeoutAfter(options.getTimeout())
